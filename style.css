@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #222831;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    border-radius: 4px;
+    padding: 60px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 18px;
+    background: none;
+    color: #fff;
+    border: #393E46 2px solid;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #393e4643;
+    transition: .3s ease;
+}
+
+/* portfolio: tobigfioroni.github.io */
